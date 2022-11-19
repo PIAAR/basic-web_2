@@ -1,9 +1,6 @@
-// import './js/components/products/category-item.styles.scss'
-// import './js/components/products/category-item.component.jsx'
 import CategoryItem from './js/components/products/category-item.component'
-import './styles/categories.styles.scss'
 
-const Home = () => {
+const App = () => {
   const categories = [
     {
       "id": 1,
@@ -41,4 +38,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default App;
